@@ -2,6 +2,8 @@
 itemGroup.ThermalRecycling=Thermal Recycling
 itemGroup.TagLine=Reduza! Reutilize! Recicle!
 
+option.recycling.sneakingonly=Show only when sneaking
+
 item.Debris.debris.name=Detritos de Reciclagem
 item.RecyclingScrap.poor.name=Sucata Inferior
 item.RecyclingScrap.standard.name=Sucata
@@ -22,14 +24,39 @@ item.ProcessingCore.decomposition.name=Núcleo: Extração
 item.PaperLogMaker.paperlogmaker.name=Fazedor de Madeira de Papel
 item.Material.paperlog.name=Madeira de Papel
 item.Material.worms.name=Punhado de Minhocas
+item.Material.litterBag.name=Litter Bag
+item.Material.gardenShears.name=Garden Shears
+item.Material.fuelCell.name=Fuel Cell
+item.Material.rtgHousing.name=RTG Housing
+item.Material.rtgDepleted.name=Depleted RTG Energy Cell
+
+item.RTGEnergyCell.creative.name=Creative RTG Energy Cell
+item.RTGEnergyCell.rtg.name=RTG Energy Cell
+msg.RTGEnergyCell.Infinite=Infinite
+msg.RTGEnergyCell.Send=Send
+msg.RTGEnergyCell.Charge=Charge
+
+item.soylentGreen.name=§2Soylent Green
+item.soylentYellow.name=§eSoylent Yellow
+item.soylentRed.name=§4Soylent Red
+msg.itLooksEdible=It looks edible...
 
 tile.PileOfRubble.name=Pilha de Entulho
 tile.FertileLand.name=Terra Fértil
-tile.Test.item1.name=Bloco de Teste (WIP)
 tile.MachineThermalRecycler.name=Reciclador Termal
 tile.MachineScrapAssessor.name=Assessor de Sucata
 tile.MachineComposter.name=Composteira
+tile.MachineVending.name=Vending Machine
+tile.MachineVendingTop.name=Vending Machine
 tile.ScrapBlock.scrap.name=Bloco de Sucata
+tile.Lawn.name=Manicured Grass
+tile.MachineBatteryRack.name=Battery Rack
+
+item.EnergeticRedstoneDust.energeticRedstoneDust.name=Energetic Redstone Dust
+tile.EnergeticRedstoneOre.name=Energetic Redstone Ore
+
+msg.MachineVending.adminName=Server Shop
+msg.MachineVending.free=FREE
 
 # Additional text for Scrap Assessor lore
 msg.ScrapPreview.destroy=Destruir
@@ -45,11 +72,32 @@ msg.MachineStatus.outOfPower=Sem energia
 msg.MachineStatus.needMoreWater=Precisa de água
 msg.MachineStatus.cantSeeSky=Precisa ver o céu
 
+# Village Vend-O strings
+msg.VendoFormat=Vend-O-%s
+msg.VendoFormat.Priest=Priest
+msg.VendoFormat.Librarian=Librarian
+msg.VendoFormat.Butcher=Butcher
+msg.VendoFormat.Farmer=Farmer
+msg.VendoFormat.Blacksmith=Blacksmith
+msg.VendoFormat.Herder=Herder
+msg.VendoFormat.Arborist=Arborist
+msg.VendoFormat.Hunter=Hunter
+msg.VendoFormat.Tinker=Tinker
+msg.VendoFormat.Dyer=Dyer
+
 # Achievements
 achievement.feelingScrappy=Se sentindo um lixo!
 achievement.feelingScrappy.desc=Faça um Reciclador Termal
 achievement.doingMyPart=Fazendo minha parte
 achievement.doingMyPart.desc=Usar uma caixa de sucata
+achievement.lottoWinner=Lotto Winner!
+achievement.lottoWinner.desc=Get a Nether Star from a Scrap Box
+achievement.doinTheTrash=Doin' the Trash!
+achievement.doinTheTrash.desc=Clear trash from your inventory using a Litter Bag
+achievement.shearBeauty=Shear Beauty
+achievement.shearBeauty.desc=Use Garden Shears to create Manicured Lawn
+achievement.dystopianFuture=Dystopian Future
+achievement.dystopianFuture.desc=Consume §2Soylent Green
 
 # ScrapValue for item lore
 msg.ItemScrapValue.none=§eValor como Sucata: §7Nenhum
